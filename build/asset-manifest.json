@@ -1,0 +1,21 @@
+{
+  "main.css": "/tax-app/static/css/main.f50eadf0.chunk.css",
+  "main.js": "/tax-app/static/js/main.716742d7.chunk.js",
+  "main.js.map": "/tax-app/static/js/main.716742d7.chunk.js.map",
+  "static/js/1.40a65a1c.chunk.js": "/tax-app/static/js/1.40a65a1c.chunk.js",
+  "static/js/1.40a65a1c.chunk.js.map": "/tax-app/static/js/1.40a65a1c.chunk.js.map",
+  "runtime~main.js": "/tax-app/static/js/runtime~main.f9bda940.js",
+  "runtime~main.js.map": "/tax-app/static/js/runtime~main.f9bda940.js.map",
+  "static/media/image_part_001.jpg": "/tax-app/static/media/image_part_001.e450665e.jpg",
+  "static/media/image_part_002.jpg": "/tax-app/static/media/image_part_002.9905b3a1.jpg",
+  "static/media/image_part_003.jpg": "/tax-app/static/media/image_part_003.b954d3ed.jpg",
+  "static/media/image_part_004.jpg": "/tax-app/static/media/image_part_004.0bd393df.jpg",
+  "static/media/accounting-analytics-balance-209224-min.jpg": "/tax-app/static/media/accounting-analytics-balance-209224-min.a5d16c07.jpg",
+  "static/media/accounting-analytics-balance-209224.jpg": "/tax-app/static/media/accounting-analytics-balance-209224.020c36f5.jpg",
+  "static/media/accounting-alone-application-938965-min.jpg": "/tax-app/static/media/accounting-alone-application-938965-min.6767f4d1.jpg",
+  "static/media/architectural-design-architecture-building-443383.jpg": "/tax-app/static/media/architectural-design-architecture-building-443383.765870a7.jpg",
+  "static/css/main.f50eadf0.chunk.css.map": "/tax-app/static/css/main.f50eadf0.chunk.css.map",
+  "index.html": "/tax-app/index.html",
+  "precache-manifest.3dafa8fd108db4a651a3267e1044ca46.js": "/tax-app/precache-manifest.3dafa8fd108db4a651a3267e1044ca46.js",
+  "service-worker.js": "/tax-app/service-worker.js"
+}

@@ -1,0 +1,14 @@
+.Modal{
+    margin-bottom: 12px;
+    box-shadow: -1px 0px 5px rgba(0,0,0,0.2);
+    background-color: rgb(245, 245, 240,0.5);
+}
+
+.Modal hr{
+    width: 60%;
+    margin: auto;
+}
+
+.Modal div:nth-child(3){
+    padding: 12px;
+}
