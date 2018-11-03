@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "716742d7301ba1c5731f",
-    "url": "/tax-app/static/css/main.f50eadf0.chunk.css"
+    "revision": "78d585cb5d54784c06bd",
+    "url": "/tax-app/static/css/main.4c241a5a.chunk.css"
   },
   {
-    "revision": "716742d7301ba1c5731f",
-    "url": "/tax-app/static/js/main.716742d7.chunk.js"
+    "revision": "78d585cb5d54784c06bd",
+    "url": "/tax-app/static/js/main.78d585cb.chunk.js"
   },
   {
-    "revision": "40a65a1cd44b0edd15d6",
-    "url": "/tax-app/static/js/1.40a65a1c.chunk.js"
+    "revision": "49c934647726508fa693",
+    "url": "/tax-app/static/js/1.49c93464.chunk.js"
   },
   {
     "revision": "f9bda940541015594c88",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/tax-app/static/media/architectural-design-architecture-building-443383.765870a7.jpg"
   },
   {
-    "revision": "64c098ef237adbc10621f72d7455ad2e",
+    "revision": "edb48d4732c167b238e2f75f00fcaf78",
     "url": "/tax-app/index.html"
   }
 ];
