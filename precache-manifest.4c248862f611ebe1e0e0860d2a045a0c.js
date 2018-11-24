@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "77c3a2671ef51ddb3b9b",
-    "url": "/tax-app/static/css/main.03a16513.chunk.css"
+    "revision": "04d0a36593c2058c0360",
+    "url": "/tax-app/static/css/main.42af07be.chunk.css"
   },
   {
-    "revision": "77c3a2671ef51ddb3b9b",
-    "url": "/tax-app/static/js/main.77c3a267.chunk.js"
+    "revision": "04d0a36593c2058c0360",
+    "url": "/tax-app/static/js/main.04d0a365.chunk.js"
   },
   {
-    "revision": "a9d57cd623f861dd9a01",
-    "url": "/tax-app/static/js/1.a9d57cd6.chunk.js"
+    "revision": "b29f7f2bdafa769b0be3",
+    "url": "/tax-app/static/js/1.b29f7f2b.chunk.js"
   },
   {
     "revision": "f9bda940541015594c88",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/tax-app/static/media/building.9b547ce5.jpeg"
   },
   {
+    "revision": "e17119857e6d0a767ffc6535a2d42774",
+    "url": "/tax-app/static/media/ongoingWork.e1711985.jpg"
+  },
+  {
     "revision": "7c6821957817e6a9c4dd447a0767421c",
     "url": "/tax-app/static/media/confidentiality.7c682195.jpg"
   },
@@ -60,11 +64,7 @@ self.__precacheManifest = [
     "url": "/tax-app/static/media/turnaround.0f02cf71.jpg"
   },
   {
-    "revision": "e17119857e6d0a767ffc6535a2d42774",
-    "url": "/tax-app/static/media/ongoingWork.e1711985.jpg"
-  },
-  {
-    "revision": "498d2ecfc63aff16e9f63159e6bb857e",
+    "revision": "af725bf662044e70a9ef61b8d55f047e",
     "url": "/tax-app/index.html"
   }
 ];
