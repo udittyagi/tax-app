@@ -8,7 +8,6 @@ const modal = (props) => {
         '@media(min-width: 650px)':{
             width:80/props.size+"%"},
     }
-    console.log(props.children[1]);
     return (<div className={classes.Modal} style={styles}>
         <div>{props.children[0]}</div>
         <hr></hr>

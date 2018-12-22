@@ -1,0 +1,31 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.About hr{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.About div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media(min-width: 650px){
+    .About{
+        margin-top: 72px;
+    }
+
+    .About div{
+        flex-wrap: nowrap;
+    }
+}

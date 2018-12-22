@@ -1,0 +1,129 @@
+.Main{
+    width: 100%;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Content div h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color:rgb(8,58,131,0.8);
+}
+
+.Content div h3 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+    display: block;
+}
+
+.Description {
+    margin: 0;
+    padding: 56px 0;
+}
+.Description div{
+    width: 95%;
+    margin: auto;
+}
+.Description h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: lighter
+}
+
+.Description p {
+    font-size: 18px;
+}
+
+.Qualities {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(8,58,131,0.2);
+    color: #020201;
+    padding-top:10px;
+}
+
+.Modals{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Main .Seperator {
+    max-width: 10%;
+    height: 5px;
+    background-color: #1e1e15;
+    margin: auto;
+    border: 1px solid #1e1e15;
+    border-radius: 15px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+}
+
+@media(min-width: 650px){
+    .Content{
+        width: 95%;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .img1{
+        height: 100%;
+        background-size: cover;
+        width: 24%;
+        position: relative;
+    }
+    .img2{
+        height: 100%;
+        background-size: cover;
+        width: 24%;
+        position: relative;
+    }
+    .img3{
+        height: 100%;
+        background-size: cover;
+        width: 24%;
+        position: relative;
+    }
+    .img4{
+        height: 100%;
+        background-size: cover;
+        width: 24%;
+        position: relative;
+    }
+    
+    .Content div h3{
+        height: 56px;
+        line-height: 56px;
+        position: absolute;
+        top: 60vh;
+    }
+    
+    .Modals {
+        display: flex;
+        flex-direction: row;
+    }
+    .Qualities {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

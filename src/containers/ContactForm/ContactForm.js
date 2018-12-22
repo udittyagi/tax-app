@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import classes from './ContactForm.module.css';
-import building from '../../assets/architectural-design-architecture-building-443383.jpg';
+import building from '../../assets/building.jpeg';
 import Ionicon from 'react-ionicons';
 import Radium from 'radium';
 
@@ -20,7 +20,7 @@ class ContactForm extends Component{
                         <Ionicon icon="ios-pin-outline" fontSize="25px" color="white"/>
                         <div>
                             <h3 style={{color:'rgb(248, 244, 238)'}}>Address</h3>
-                            <p style={{color:'rgb(248, 244, 238)'}}>Sector 12, Raj Nagar, Ghaziabad</p>
+                            <p style={{color:'rgb(248, 244, 238)'}}>304, Sita Ram Mansion, 718/21, Joshi Road, Karol Bagh, New Delhi-110 005, India</p>
                         </div> 
                       </div>
                       
@@ -28,7 +28,7 @@ class ContactForm extends Component{
                         <Ionicon icon="ios-call-outline" fontSize="25px" color="white"/>
                         <div>
                             <h3 style={{color:'rgb(248, 244, 238)'}}>Lets Talk</h3>
-                            <p style={{color:"#2eb82e", fontWeight:'bold'}}>+91-7289093814</p>
+                            <p style={{color:"#2eb82e", fontWeight:'bold'}}>+91 9711603579</p>
                         </div>
                       </div>
                       
@@ -36,7 +36,7 @@ class ContactForm extends Component{
                         <Ionicon icon="ios-mail-outline" fontSize="25px" color="white"/>
                         <div>
                             <h3 style={{color:'rgb(248, 244, 238)'}}>General Support</h3>
-                            <p style={{color:"#2eb82e", fontWeight:'bold'}}>contact@example.com</p>
+                            <p style={{color:"#2eb82e", fontWeight:'bold'}}>csmukultyagi@gmail.com</p>
                         </div>
                       </div>
                      

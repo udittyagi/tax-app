@@ -1,0 +1,132 @@
+.ServiceDescription h2 {
+    font-weight: lighter;
+    margin-top: 0px;
+
+}
+
+.ServiceDescription hr {
+    width: 80%;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+/* .ServiceDescriptionMenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 8px;
+}
+*/
+.ServiceDescriptionMenu div {
+    cursor: pointer;
+    margin:0;
+    height: 46px;
+    line-height: 46px;
+    background-color: rgb(199, 199, 199);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: rgb(0, 0, 0);
+
+}
+.ServiceDescriptionMenu div:hover{
+    background-color: rgb(224, 224, 224);
+}
+.ServiceDescriptionMenu div.activeMark{
+    background-color: rgb(235, 235, 235);
+    /* box-shadow:0px -1px 4px 0px rgba(0, 0, 0, 0.2), 0px -2px 6px 0px rgba(0, 0, 0, 0.19); */
+    /* border-bottom: 3px solid #638BB3; */
+} 
+.MenuDetails{
+    min-height: 100vh;
+    border: 1px solid #999999; 
+}
+.MenuDetails div article{
+    padding: 30px 30px;
+}
+.MenuDetails div article:nth-child(even){
+    background-color: rgb(242, 242, 242,0.8)
+}
+
+.MenuDetails div article:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.MenuDetails div article p{
+    text-align: left;
+    line-height: 1.8em;;
+     
+}
+
+@media(min-width: 650px){
+    /* .ServiceDescription h2 {
+        font-weight: lighter;
+    
+    } */
+    
+    .ServiceDescription hr {
+        /* width: 80%;
+        margin: auto;  */
+        margin-bottom: 30px;
+    }
+    
+    .ServiceDescriptionMenu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 0px;
+
+    }
+    
+    .ServiceDescriptionMenu div {
+        /* cursor: pointer; */
+        width: 16.66%;
+        /* margin:0; */
+        /* height: 46px; */
+        /* line-height: 46px; */
+        /* background-color: #999999; */
+        background-color: rgb(255, 253, 253);
+        border-top: 0px ;
+        border-left: 0px ;
+        border-right: 0px ;
+        margin-right: 3px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+
+    .ServiceDescriptionMenu div.activeMark{
+        /* background-color: rgb(235, 235, 235); */
+        /* box-shadow:0px -1px 4px 0px rgba(0, 0, 0, 0.2), 0px -2px 6px 0px rgba(0, 0, 0, 0.19); */
+        border-bottom: 3px solid #638BB3;
+    } 
+
+    .MenuDetails div article:nth-child(odd){
+        background-color: rgb(242, 242, 242,0.8)
+    }
+
+    .MenuDetails div article:nth-child(even){
+        background-color: rgba(255, 255, 255, 0.8)
+    }
+    
+    /* .ServiceDescriptionMenu div.activeMark{
+        background-color: #eaeae1;
+        box-shadow:0px -1px 4px 0px rgba(0, 0, 0, 0.2), 0px -2px 6px 0px rgba(0, 0, 0, 0.19);;
+    } */
+    /* .MenuDetails{
+        min-height: 100vh;
+        border: 1px solid #999999; 
+    }
+    .MenuDetails div article{
+        padding: 30px 30px;
+    }
+    .MenuDetails div article:nth-child(even){
+        background-color: rgb(242, 242, 242,0.8)
+    }
+    
+    .MenuDetails div article p{
+        text-align: left;
+        line-height: 1.8em;;
+         
+    } */
+    
+}
