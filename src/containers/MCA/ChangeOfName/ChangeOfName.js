@@ -6,16 +6,11 @@ import classes from '../../GST/GST_Registration/GST_Registration.module.css';
 class ChangeOfName extends Component{
 
     state = {
-        selectedMenu: 'Definition',
+        selectedMenu: 'About',
     }
 
     ChangeOfNameMenu = [
-        "Definition",
-        "Inclusion",
-        "Procedures",
-        "Documents",
-        "Advantages",
-        "FAQs"
+        "About"
     ]
 
     changeMenuHandler = (menu) => {
@@ -37,150 +32,34 @@ class ChangeOfName extends Component{
 
         let MenuDetails = null 
         switch(activeMenu){
-            case "Definition":
+            case "About":
                 MenuDetails = (
                     <div>
                        <article>
-                            <h2>What is Limited Liability ?</h2>
+                            <h2>Company Name Change</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            The name of a company or LLP can be changed by the promoters 
+                            at anytime after incorporation. Some of the major reasons for 
+                            change of company name are business model change, change of promoters, 
+                            rebranding, etc., To change the name of a company, shareholders approval 
+                            is required along with approval from the Ministry of Corporate Affairs. 
+                            The change of name of a company or LLP however has no impact on the legal 
+                            entity or its existence. Hence, all assets and liabilities of the entity would continue, 
+                            while only the name of the company would have been changed.
                             </p>
-                        </article>
-                        <article>
-                            <h2>Who All Need GST Registration ?</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Benefits Of Registration Under GST</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Change of company name requires passing of a board resolution, obtaining name approval 
+                            from MCA, passing of a special resolution and applying for approval of new 
+                            company name to the MCA. If the MCA accepts the application, a new certificate of 
+                            incorporation is issued. After obtaining the new certificate of incorporation, 
+                            changes must be made to incorporate and change the MOA and AOA of the company as well.
                             </p>
                         </article>
                         
                     </div>
                 )
                 break;
-            case "Inclusion":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>What’s included in our package?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>                  
-                    </div>
-                )
-                break;
-            case "Procedures":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>GST Registration Process (on Government Portal)</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Documents":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Documents for Registration</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Advantages":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Advantages</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "FAQs":
+            
             default:
                     MenuDetails=(
                         <div>Something Went Wrong</div>

@@ -3,22 +3,16 @@ import '../GST/GST.css';
 import ServiceSideMenu from '../../UI/ServiceSideMenu/ServiceSideMenu';
 import Ionicon from 'react-ionicons';
 import StockExchange from './StockExchange/StockExchange';
-import Listing from './Listing/Listing';
-
-
 
 class ListingCompliances extends Component {
    
     state = {
-        selectedService : 'Stock_Exchange_Compliances', 
+        selectedService : 'Listing_Compliances', 
         showMobileSideDrawer : false,
     }
     services = [
-        "Stock_Exchange_Compliances",
-        "Listing_of_Securities"
-        
-
-
+        "Listing_Compliances",
+        // "Listing_of_Securities"
     ];
 
     changeServiceHandler = (service) => {
@@ -46,9 +40,9 @@ class ListingCompliances extends Component {
             case this.services[0]:
                 activeService = (<StockExchange />);
                 break;
-            case this.services[1]:
-                activeService = (<Listing />);
-                break;
+            // case this.services[1]:
+            //     activeService = (<Listing />);
+            //     break;
             default:
                 activeService=(<StockExchange/>);
         }

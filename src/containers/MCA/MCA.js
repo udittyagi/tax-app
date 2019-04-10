@@ -6,7 +6,6 @@ import AddRemoveDirector from './AddRemoveDirector/AddRemoveDirector';
 import Allotment from './Allotment/Allotment';
 import AuthorisedCapital from './AuthorisedCapital/AuthorisedCapital';
 import ChangeOfName from './ChangeOfName/ChangeOfName';
-import ChangeOfObject from './ChangeOfObject/ChangeOfObject';
 import ChargeRegistration from './ChargeRegistration/ChargeRegistration';
 import CorporateClosure from './CorporateClosure/CorporateClosure';
 import DIR from './DIR/DIR';
@@ -25,14 +24,14 @@ class MCA extends Component {
         "Corporate_Annual_Filing",
         "Add/Remove_Director",
         "Increase_in_Authorised_Capital",
-        "Allotment_of_Securities",
+        "Memorandum_of_Association_Amendment", //Allotment Component
         "Registered_Office_Shifting",
-        "Charge_Registration",
+        "Increase_In_Authorise_Capital_of_the_Company",//charge Registration
         "Change_of_Name ",
-        "Change_of_Objects",
+        // "Change_of_Objects",
         "Share_Transfer/Transmission",
-        "Corporate_Closure",
-        "DIR_3_KYC"
+        "Winding_Up_of_a_Company", //Company Closure
+        "LLP_Winding_Up" //DIR KYC
         
     ];
     changeServiceHandler = (service) => {
@@ -77,16 +76,16 @@ class MCA extends Component {
             case this.services[6]:
                 activeService = (<ChangeOfName />);
                 break;
+            // case this.services[7]:
+            //     activeService = (<ChangeOfObject />);
+            //     break;
             case this.services[7]:
-                activeService = (<ChangeOfObject />);
-                break;
-            case this.services[8]:
                 activeService = (<ShareTransfer />);
                 break;
-            case this.services[9]:
+            case this.services[8]:
                 activeService = (<CorporateClosure />);
                 break;
-            case this.services[10]:
+            case this.services[9]:
                 activeService = (<DIR />);
                 break;
              

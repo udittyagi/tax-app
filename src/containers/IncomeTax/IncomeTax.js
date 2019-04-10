@@ -3,8 +3,6 @@ import '../GST/GST.css';
 import ServiceSideMenu from '../../UI/ServiceSideMenu/ServiceSideMenu';
 import Ionicon from 'react-ionicons';
 import ITRFiling from './ITRFiling/ITRFiling';
-import TDSReturn from './TDSReturn/TDSReturn';
-import Registration from './Registration/Registration';
 import TaxNotice from './TaxNotice/TaxNotice';
 
 class IncomeTax extends Component {
@@ -15,9 +13,9 @@ class IncomeTax extends Component {
     }
     services = [
         "ITR_Filing",
-        "TDS_Return_Filing",
-        "Registration",
-        "Tax_Notice_Management"
+        // "TDS_Return_Filing",
+        // "Registration",
+        "Tax_Notice"
 
     ];
 
@@ -46,13 +44,13 @@ class IncomeTax extends Component {
             case this.services[0]:
                 activeService = (<ITRFiling/>);
                 break;
+            // case this.services[1]:
+            //     activeService = (<TDSReturn />);
+            //     break;
+            // case this.services[2]:
+            //     activeService = (<Registration />);
+            //     break;
             case this.services[1]:
-                activeService = (<TDSReturn />);
-                break;
-            case this.services[2]:
-                activeService = (<Registration />);
-                break;
-            case this.services[3]:
                 activeService = (<TaxNotice />);
                 break;
             default:

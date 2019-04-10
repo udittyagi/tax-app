@@ -6,16 +6,11 @@ import classes from '../../GST/GST_Registration/GST_Registration.module.css';
 class Allotment extends Component{
 
     state = {
-        selectedMenu: 'Definition',
+        selectedMenu: 'About',
     }
 
     AllotmentMenu = [
-        "Definition",
-        "Inclusion",
-        "Procedures",
-        "Documents",
-        "Advantages",
-        "FAQs"
+        "About"
     ]
 
     changeMenuHandler = (menu) => {
@@ -37,150 +32,25 @@ class Allotment extends Component{
 
         let MenuDetails = null 
         switch(activeMenu){
-            case "Definition":
+            case "About":
                 MenuDetails = (
                     <div>
                        <article>
-                            <h2>What is Limited Liability ?</h2>
+                            <h2>Memorandum of Association Amendment</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Memorandum of Association of a Company sets down the constitution 
+                            of a company including the permitted range of activities of the company, 
+                            state of incorporation, type of company, capital clause, liability clause 
+                            and more. Changes to Memorandum of Association of a company can be required 
+                            while changing name of a company, changing registered office from state to state. 
+                            Alteration of objects clause, alteration of capital clause or increase of authorised 
+                            capital, Changes to the Memorandum of Association of a company would require 
+                            the passing of a special resolution and shareholders consent.
                             </p>
-                        </article>
-                        <article>
-                            <h2>Who All Need GST Registration ?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Benefits Of Registration Under GST</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        
+                        </article>                   
                     </div>
                 )
                 break;
-            case "Inclusion":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>What’s included in our package?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>                  
-                    </div>
-                )
-                break;
-            case "Procedures":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>GST Registration Process (on Government Portal)</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Documents":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Documents for Registration</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Advantages":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Advantages</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "FAQs":
             default:
                     MenuDetails=(
                         <div>Something Went Wrong</div>
@@ -189,7 +59,7 @@ class Allotment extends Component{
 
         return (
             <section className={classes.ServiceDescription}>
-                <h2> Allotment of Securities </h2>
+                <h2> Memorandum of Association Amendment </h2>
                 <hr></hr>
                 <div className={classes.ServiceDescriptionMenu}>
                     {menu}

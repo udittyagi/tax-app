@@ -6,16 +6,11 @@ import classes from '../../GST/GST_Registration/GST_Registration.module.css';
 class Registered extends Component{
 
     state = {
-        selectedMenu: 'Definition',
+        selectedMenu: 'Introduction',
     }
 
     RegisteredMenu = [
-        "Definition",
-        "Inclusion",
-        "Procedures",
-        "Documents",
-        "Advantages",
-        "FAQs"
+        "Introduction"
     ]
 
     changeMenuHandler = (menu) => {
@@ -37,150 +32,42 @@ class Registered extends Component{
 
         let MenuDetails = null 
         switch(activeMenu){
-            case "Definition":
+            case "Introduction":
                 MenuDetails = (
                     <div>
                        <article>
-                            <h2>What is Limited Liability ?</h2>
+                            <h2>Change of Registered Office</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            The registered office of a Company or LLP is the principle 
+                            place of business for a private / public limited company 
+                            and all official correspondence from the Ministry of Corporate 
+                            Affairs is sent to this location. The registered office of a 
+                            Company or LLP can be changed within the local limits of any city, 
+                            town or village where such office is situated by just giving a notice 
+                            to the concerned Registrar within 30 days after the date of the change. But a 
+                            special resolution will be required if the change of the registered office is 
+                            from one village, town, etc., in the same state. Where the place of registered 
+                            offices is to be altered from one State to another State, the Company or LLP may 
+                            do so by passing special resolution and getting confirmation of the Company Law 
+                            Board. The Company or LLP is also required to give an advertisement in the 
+                            newspapers indicating the change proposed to be made and also a notice is to 
+                            be given to the State Government when it is proposed to 
+                            transfer the registered office from one State to another.
                             </p>
-                        </article>
-                        <article>
-                            <h2>Who All Need GST Registration ?</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Benefits Of Registration Under GST</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        
-                    </div>
-                )
-                break;
-            case "Inclusion":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>What’s included in our package?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>                  
-                    </div>
-                )
-                break;
-            case "Procedures":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>GST Registration Process (on Government Portal)</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            A change to the registered business office address can be 
+                            required due to various reasons. Further, the formalities and process for 
+                            changing the Registered Office of the Company or LLP will depend on if the Company 
+                            or LLP is changing address within the same city/town/village or if the Company 
+                            is changing address between city/town/village of if the Company is changing the 
+                            Registered Office between States. Privy Corporate Consulting can help you change 
+                            the Registered 
+                            Office in all three scenarios, talk to our Business Advisors today.
                             </p>
                         </article>
                     </div>
                 )
                 break;
-            case "Documents":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Documents for Registration</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Advantages":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Advantages</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "FAQs":
             default:
                     MenuDetails=(
                         <div>Something Went Wrong</div>

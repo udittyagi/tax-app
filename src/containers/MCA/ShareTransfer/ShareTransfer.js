@@ -6,16 +6,11 @@ import classes from '../../GST/GST_Registration/GST_Registration.module.css';
 class ShareTransfer extends Component{
 
     state = {
-        selectedMenu: 'Definition',
+        selectedMenu: 'About',
     }
 
     ShareTransferMenu = [
-        "Definition",
-        "Inclusion",
-        "Procedures",
-        "Documents",
-        "Advantages",
-        "FAQs"
+        "About"
     ]
 
     changeMenuHandler = (menu) => {
@@ -37,150 +32,33 @@ class ShareTransfer extends Component{
 
         let MenuDetails = null 
         switch(activeMenu){
-            case "Definition":
+            case "About":
                 MenuDetails = (
                     <div>
                        <article>
-                            <h2>What is Limited Liability ?</h2>
+                            <h2>Company Share Transfer</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Who All Need GST Registration ?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Benefits Of Registration Under GST</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            The ownership of a company limited by shares is held by the shareholders 
+                            of the Company. The shareholders in turn appoint Directors to manage the 
+                            affairs of the Company. Hence, ownership of a company rests with the shareholders 
+                            and not the Directors. Transfer of ownership of a company can therefore be 
+                            accomplished by transferring shares of the company from one person or entity 
+                            to another. Share transfer in a private limited company is usually more 
+                            restricted when compared to a listed company that is publicly traded. The 
+                            entire shares of a private limited company are usually owned by a family or a 
+                            small group of persons or entities. Hence, most of the Articles of Association 
+                            of a Private Limited Company limit the right of a shareholder to transfer 
+                            the company's shares to an outsider. Therefore, it is important to review 
+                            the Articles of Association of the Company prior to affecting a share transfer. 
+                            Privy Corporate Consulting can help you transfer shares of a private limited company by 
+                            completing the necessary procedures as per Companies Act, 2013.
                             </p>
                         </article>
                         
                     </div>
                 )
                 break;
-            case "Inclusion":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>What’s included in our package?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>                  
-                    </div>
-                )
-                break;
-            case "Procedures":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>GST Registration Process (on Government Portal)</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Documents":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Documents for Registration</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Advantages":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Advantages</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "FAQs":
+            
             default:
                     MenuDetails=(
                         <div>Something Went Wrong</div>

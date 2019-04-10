@@ -18,20 +18,20 @@ class Services extends Component{
             "Corporate Annual Filing",
             "Add/Remove Director",
             "Increase in Authorised Capital",
-            "Allotment of Securities",
+            "Memorandum of Association Amendment", //Allotment
             "Registered Office Shifting",
-            "Charge Registration",
+            "Increase In Authorise Capital of the Company", //Charge Registration
             "Change of Name ",
-            "Change of Objects",
+            // "Change of Objects",
             "Share Transfer/Transmission",
-            "Corporate Closure",
-            "DIR 3 KYC"
+            "Winding Up of a Company", //Corporate Closure
+            "LLP Winding Up" //DIR 3 kYC
         ],
         "Income Tax":[
             "ITR Filing",
-            "TDS Return Filing",
-            "Registration",
-            "Tax Notice Management"
+            // "TDS Return Filing",
+            // "Registration",
+            "Tax Notice"
         ],
         "GST":[
             "GST Registration",
@@ -41,28 +41,28 @@ class Services extends Component{
             "NBFC Compliances"
         ],
         "Listing Compliances":[
-            "Stock Exchange Compliances",
-            "Listing of Securities"
+            "Listing Compliances",
+            // "Listing of Securities"
         ],
-        "Finance":[
-            "Project Financing",
-            "Term Loan",
-            "Working Capital",
-            "Housing Finance",
-            "Project Report Prepration"
-        ],
-        "Valuation":[
-            "Valuation of Enterprise",
-            "Valuation of Equity"
-        ],
-        "Other Services":[
-            "Book Keeping",
-            "Legal Drafting",
-            "Retainership",
-            "Due Diligence", 
-            "Search Reports"
+        // "Finance":[
+        //     "Project Financing",
+        //     "Term Loan",
+        //     "Working Capital",
+        //     "Housing Finance",
+        //     "Project Report Prepration"
+        // ],
+        // "Valuation":[
+        //     "Valuation of Enterprise",
+        //     "Valuation of Equity"
+        // ],
+        // "Other Services":[
+        //     "Book Keeping",
+        //     "Legal Drafting",
+        //     "Retainership",
+        //     "Due Diligence", 
+        //     "Search Reports"
 
-        ]
+        // ]
 
         }
     render(){
@@ -82,13 +82,13 @@ class Services extends Component{
                     <ServiceCard title="RBI" services={this.services["RBI"]} />
                     <ServiceCard title="Listing Compliances" services={this.services["Listing Compliances"]} />
                 </section>
-                <section>
+                {/* <section>
                     <ServiceCard title="Finance" services={this.services["Finance"]} />
                     <ServiceCard title="Valuation" services={this.services["Valuation"]} />
-                </section>
-                <section>
+                </section> */}
+                {/* <section>
                     <ServiceCard title="Other Services" services={this.services["Other Services"]} />
-                </section>
+                </section> */}
             </section>
         );
     }

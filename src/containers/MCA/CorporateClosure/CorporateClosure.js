@@ -1,21 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import classes from '../../GST/GST_Registration/GST_Registration.module.css';
 
 
 
-class CorporateClosure extends Component{
+class CorporateClosure extends Component {
 
     state = {
-        selectedMenu: 'Definition',
+        selectedMenu: 'About',
     }
 
     CorporateClosureMenu = [
-        "Definition",
-        "Inclusion",
-        "Procedures",
-        "Documents",
-        "Advantages",
-        "FAQs"
+        "About"
     ]
 
     changeMenuHandler = (menu) => {
@@ -24,185 +19,70 @@ class CorporateClosure extends Component{
         })
     }
 
-    render(){
+    render() {
         let activeMenu = '';
-        let menu = this.CorporateClosureMenu.map((item,index) => {  
+        let menu = this.CorporateClosureMenu.map((item, index) => {
             let activeClass = '';
-            if(this.state.selectedMenu === item){
-                activeClass=classes.activeMark;
+            if (this.state.selectedMenu === item) {
+                activeClass = classes.activeMark;
                 activeMenu = item;
             }
-            return(<div key={index} className={activeClass} onClick={()=>this.changeMenuHandler(item)}>{item}</div>)
+            return (<div key={index} className={activeClass} onClick={() => this.changeMenuHandler(item)}>{item}</div>)
         })
 
-        let MenuDetails = null 
-        switch(activeMenu){
-            case "Definition":
-                MenuDetails = (
-                    <div>
-                       <article>
-                            <h2>What is Limited Liability ?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Who All Need GST Registration ?</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        <article>
-                            <h2>Benefits Of Registration Under GST</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                        
-                    </div>
-                )
-                break;
-            case "Inclusion":
+        let MenuDetails = null
+        switch (activeMenu) {
+            case "About":
                 MenuDetails = (
                     <div>
                         <article>
-                            <h2>What’s included in our package?</h2>
+                            <h2>Winding Up of a Company</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                A private limited company is an artificial judicial person
+                                and requires various compliances like appointment of Auditor,
+                                regular filing of income tax return, annual return filing and more.
+                                Failing to maintain compliance for a Company could result in fines
+                                and/or disqualification of the Directors from incorporating another
+                                Company. Therefore, if a private limited company has become inactive and there are no
+                                transactions in the company, then it is best to wind up the Company.
                             </p>
-                        </article>                  
-                    </div>
-                )
-                break;
-            case "Procedures":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>GST Registration Process (on Government Portal)</h2>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Voluntary winding up of a company can be initiated at anytime by the
+                                shareholders of the company. In case there are any secured or unsecured
+                                creditors or employees on-roll, the outstanding dues must be settled.
+                                Once all the dues are settled, the bank accounts of the company must be
+                                closed. Finally, the company must regularise any overdue compliance like
+                                income tax return or annual filing and surrender the GST registration.
+                                Once, all activities are stopped and the registrations are surrendered,
+                                the winding up application
+                                petition can be filed with the Ministry of Corporate Affairs.
                             </p>
                         </article>
                     </div>
                 )
                 break;
-            case "Documents":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Documents for Registration</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "Advantages":
-                MenuDetails = (
-                    <div>
-                        <article>
-                            <h2>Advantages</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi 
-                            ut aliquip ex ea commodo consequat. Duis 
-                            aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, 
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </article>
-                    </div>
-                )
-                break;
-            case "FAQs":
             default:
-                    MenuDetails=(
-                        <div>Something Went Wrong</div>
-                    )
+                MenuDetails = (
+                    <div>Something Went Wrong</div>
+                )
         }
 
         return (
             <section className={classes.ServiceDescription}>
-                <h2> Corporate Closure </h2>
+                <h2> Winding Up of a Company </h2>
                 <hr></hr>
                 <div className={classes.ServiceDescriptionMenu}>
                     {menu}
                 </div>
-                <div className={classes.MenuDetails}> 
+                <div className={classes.MenuDetails}>
                     {MenuDetails}
                 </div>
             </section>
         );
     }
-        
-    
-    
+
+
+
 }
 
 export default CorporateClosure;

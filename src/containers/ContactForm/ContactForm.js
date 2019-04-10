@@ -6,6 +6,10 @@ import Ionicon from 'react-ionicons';
 import Radium from 'radium';
 
 class ContactForm extends Component{
+    submitFormHandler = (e) => {
+        e.preventDefault();
+        window.alert("Service Coming Soon.....")
+    }
     render(){
         const imgStyles = {
             '@media(min-width:650px)':{
@@ -66,7 +70,7 @@ class ContactForm extends Component{
                                                                 height: '56px',
                                                                 border: '1px solid  rgb(30, 30, 21, 0.7)'}}/>
                             </div>
-                            <a href="/">Submit</a>
+                            <a href="/" onClick={this.submitFormHandler}>Submit</a>
                         </section>
                         
                     </form>
