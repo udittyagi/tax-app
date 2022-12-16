@@ -74,10 +74,10 @@ const main = (props) => {
             </section>
             <section className={classes.Description}>
                 <div>
-                    <h1>Privy Corporate Consulting LLP</h1>
+                    <h1>Talisman Business Consultancy & Solutions</h1>
                     <hr></hr>
                     <p>
-                        Privy Corporate Consulting LLP is a platform to simplify legal and business-related
+                        Talisman Business Consultancy & Solutions is a platform to simplify legal and business-related
                         matters. We are committed to helping Corporate, startups and small business owners in
                         solving legal compliance related to starting and running their business. Our mission is
                         to offer affordable, quick and automated professional services to clients. We bring

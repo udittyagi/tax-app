@@ -60,7 +60,7 @@ class Registered extends Component{
                             changing the Registered Office of the Company or LLP will depend on if the Company 
                             or LLP is changing address within the same city/town/village or if the Company 
                             is changing address between city/town/village of if the Company is changing the 
-                            Registered Office between States. Privy Corporate Consulting can help you change 
+                            Registered Office between States. Talisman Business Consultancy & Solutions can help you change 
                             the Registered 
                             Office in all three scenarios, talk to our Business Advisors today.
                             </p>

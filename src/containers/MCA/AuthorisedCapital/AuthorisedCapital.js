@@ -51,8 +51,7 @@ class AuthorisedCapital extends Component {
                                 To begin the process for increasing authorized capital a resolution must be
                                 passed by the Board of Directors. In the Board Resolution, authorization
                                 must be provided for increasing the authorised capital of the company and
-                                making the necessary changes to the MOA and AOA of the company. Privy Corporate
-                                Consulting
+                                making the necessary changes to the MOA and AOA of the company. Talisman Business Consultancy & Solutions
                                 can help you easily increase the authorised capital of your company.
                             </p>
                         </article>

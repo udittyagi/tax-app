@@ -47,7 +47,7 @@ class Partnership extends Component{
                             Partnership firm. It is not compulsory to register a Partnership firm; however, 
                             it is advisable to register a Partnership firm due to the added advantages. 
                             Partnership firms are created by drafting a Partnership deed amongst the Partners 
-                            and Privy Corporate Consulting LLP can help start a registered or un-registered 
+                            and Talisman Business Consultancy & Solutions can help start a registered or un-registered 
                             Partnership firm in India.
                             </p>
                         </article>
@@ -93,7 +93,7 @@ class Partnership extends Component{
                             <hr></hr>
                             <h3 style={{marginTop:"50px"}}>Partnership Deed Drafting</h3>
                             <p>
-                            An Privy Corporate Consulting Expert will first understand your business, 
+                            An Talisman Business Consultancy & Solutions Expert will first understand your business, 
                             Partners, Partnership structure and other relevant details to draft a 
                             Partnership Deed that is acceptable to all Partners.
                             </p>
@@ -101,7 +101,7 @@ class Partnership extends Component{
                             <h3 style={{marginTop:"50px"}}>Partnership Deed Registration</h3>
                             <p>
                             Based on your requirements and the service level you have requested from 
-                            Privy Corporate Consulting, we will help you register the Partnership 
+                            Talisman Business Consultancy & Solutions, we will help you register the Partnership 
                             Deed with the relevant 
                             authorities to make the Partnership a Registered Partnership Firm.
                             </p>

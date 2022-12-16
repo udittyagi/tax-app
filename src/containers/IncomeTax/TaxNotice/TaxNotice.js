@@ -47,7 +47,7 @@ class TaxNotice extends Component {
                                 the request or order in the notice and take steps to comply.
                             </p>
                             <p>
-                                Privy Corporate Consulting offers a comprehensive suite of services for
+                                Talisman Business Consultancy & Solutions offers a comprehensive suite of services for
                                 families and businesses to help them maintain their tax compliance. In case
                                 you receive an income tax notice, get in touch with a Tax Expert at Privy
                                 Corporate Consulting to better

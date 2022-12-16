@@ -50,7 +50,7 @@ class ShareTransfer extends Component{
                             of a Private Limited Company limit the right of a shareholder to transfer 
                             the company's shares to an outsider. Therefore, it is important to review 
                             the Articles of Association of the Company prior to affecting a share transfer. 
-                            Privy Corporate Consulting can help you transfer shares of a private limited company by 
+                            Talisman Business Consultancy & Solutions can help you transfer shares of a private limited company by 
                             completing the necessary procedures as per Companies Act, 2013.
                             </p>
                         </article>

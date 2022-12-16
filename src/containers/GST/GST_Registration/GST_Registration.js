@@ -58,10 +58,10 @@ class GstRegistration extends Component {
                                 register for GST as per regulations must file for GST application within 30 days from the
                                 date on which the entity became liable for registration under GST.
 
-                                Privy Corporate Consulting is the leading business services platform in India, offering a
+                                Talisman Business Consultancy & Solutions is the leading business services platform in India, offering a
                                 variety of services like income tax filing, GST return filing, private limited company
 
-                                registration, trademark filing and more. Privy Corporate Consulting can help you obtain
+                                registration, trademark filing and more. Talisman Business Consultancy & Solutions can help you obtain
                                 GST registration in India and maintain GST compliance through Opto tax GST
                                 accounting software. The average time taken to obtain GST Certificate is about 5 - 10
                                 working days, subject to government processing time and client document submission.

@@ -24,7 +24,7 @@ class ContactForm extends Component{
                         <Ionicon icon="ios-pin-outline" fontSize="25px" color="white"/>
                         <div>
                             <h3 style={{color:'rgb(248, 244, 238)'}}>Address</h3>
-                            <p style={{color:'rgb(248, 244, 238)'}}>304, Sita Ram Mansion, 718/21, Joshi Road, Karol Bagh, New Delhi-110 005, India</p>
+                            <p style={{color:'rgb(248, 244, 238)'}}>Uninav Heights, Raj Nagar Extension, Ghaziabad, Uttar Pradesh - 201017</p>
                         </div> 
                       </div>
                       

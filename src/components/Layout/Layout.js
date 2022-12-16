@@ -16,7 +16,7 @@ import RBI from '../../containers/RBI/RBI';
 import ListingCompliances from '../../containers/ListingCompliances/ListingCompliances';
 // import Valuation from '../../containers/Valuation/Valuation';
 // import OtherServices from '../../containers/OtherServices/OtherServices';
-import logo from '../../assets/logo2.svg';
+import logo from '../../assets/talismanLogo.png';
 
 class Layout extends Component {
 
@@ -179,8 +179,8 @@ class Layout extends Component {
                 <div className={classes.Contact}><Link to="/contact">Contact Us</Link></div>
                 <footer>
                     <div className={classes.FooterCompany}>
-                        <h2>Privy Corp</h2>
-                        <p>&copy; Privy Corporate Consulting LLP</p>
+                        <h2>Talisman</h2>
+                        <p>&copy; Talisman Business Consultancy & Solutions</p>
                     </div>
                     <div className={classes.FooterSeperator}></div>
                     <div className={classes.ContactInfo}>
@@ -190,7 +190,7 @@ class Layout extends Component {
                             <p>Contact No(F) : +91 11 2362 3829</p>
                         </div>
                         <div>
-                            <p>Address: 304, Sita Ram Mansion, 718/21, Joshi Road, Karol Bagh, New Delhi-110 005, India</p>
+                            <p>Address: Uninav Heights, Raj Nagar Extension, Ghaziabad, Uttar Pradesh - 201017</p>
                         </div>
 
                     </div>
