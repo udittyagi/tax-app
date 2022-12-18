@@ -49,7 +49,7 @@ class TaxNotice extends Component {
                             <p>
                                 Talisman Business Consultancy & Solutions offers a comprehensive suite of services for
                                 families and businesses to help them maintain their tax compliance. In case
-                                you receive an income tax notice, get in touch with a Tax Expert at Privy
+                                you receive an income tax notice, get in touch with a Tax Expert at Talisman
                                 Corporate Consulting to better
                                 understand the income tax notice and determine a course of action.
                             </p>

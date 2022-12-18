@@ -81,7 +81,7 @@ class Layout extends Component {
             <div className={classes.Layout}>
                 <header >
                     <nav className={classes.Nav} style={navStyles}>
-                        <div style={{ height: "50px", width: "120px", backgroundColor: 'white'}}><img src={logo} alt="Privy Corp" style={{ height: "50px", width: "120px" }} /></div>
+                        <div style={{ height: "50px", width: "120px", backgroundColor: 'white'}}><img src={logo} alt="Talisman Logo" style={{ height: "50px", width: "120px" }} /></div>
                         <div className={classes.Sidebar} onClick={this.sidebarHandler}>
                             <div></div>
                             <div></div>

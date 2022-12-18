@@ -18,7 +18,7 @@ const about = (props) => {
                     <h3>YEARS OF EXPERIENCE</h3>
                     <p>
                         With vast experience of rendering specialized services and dealing
-                        with various authorities and institutions, Privy Team has established
+                        with various authorities and institutions, Talisman Team has established
                         long lasting and highly valued relationship with clients. These services
                         are provided by our professionals,
                         who possess extensive domain knowledge and experience in his field.
@@ -27,12 +27,12 @@ const about = (props) => {
                 <AboutCard src={ongoingWorkImg} alt="On Going Work">
                     <h3>ON GOING WORK &amp; CATCH UP</h3>
                     <p>
-                        Privy serves well-reputed organizations as clients. From international
+                        Talisman serves well-reputed organizations as clients. From international
                         enterprises to the dynamic owner managed businesses, our clients cover
                         all sizes and industries. With a view of client oriented values and visions,
                         our one on one based client feedback system enriches our client relationship.
                         With a target of more than 1000 national and international client base by the year
-                        2020, Privy’s high quality, dedicated and result - oriented extensive
+                        2020, Talisman’s high quality, dedicated and result - oriented extensive
                         team is serving all aspects of clients' business growth and development.
                     </p>
                 </AboutCard >
@@ -42,7 +42,7 @@ const about = (props) => {
                 <AboutCard src={turnaroundImg} alt="Turnaround ">
                     <h3>WHO WE ARE: A QUICK TURNAROUND</h3>
                     <p>
-                        Privy comprises professionals who are setting new standards for
+                        Talisman comprises professionals who are setting new standards for
                         professional services in a wide range of Business support.
                         We share a commitment to create innovative, high quality services
                         that are relied on every day by many businesses in India or abroad.
@@ -52,7 +52,7 @@ const about = (props) => {
                         primary resource and partner in all aspects of clients' business growth
                         and development; further we shall get involved & have a sincere concern with
                         our clients to understand
-                        their objectives and meet their expectations from Privy.
+                        their objectives and meet their expectations from Talisman.
                     </p>
                 </AboutCard>
                 <AboutCard src={confidentialityImg} alt="Confidentiality">
@@ -77,7 +77,7 @@ const about = (props) => {
                 <AboutCard src={teamImg} alt="Team">
                     <h3>QUALIFIED TEAM</h3>
                     <p>
-                        Privy currently has a network of professionals including
+                        Talisman currently has a network of professionals including
                         experienced Chartered Accountants, Company Secretaries, Lawyers and Bankers.
                         Our team puts the consumer first and works meticulously to ensure that
                         documents are filled correctly and swiftly.
@@ -86,7 +86,7 @@ const about = (props) => {
                 <AboutCard src={pricingImg} alt="pricing">
                     <h3>TRANSPARENT PRICING</h3>
                     <p>
-                        Transparency is our utmost concern. In Privy Corp we believe that our customer should 
+                        Transparency is our utmost concern. In Talisman Business Consultancy & Solutions we believe that our customer should 
                         be provided tranparency not only in our work but also in the price which they pay 
                         for our services. 
                     </p>

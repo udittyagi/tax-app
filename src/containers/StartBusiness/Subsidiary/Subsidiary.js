@@ -56,8 +56,8 @@ class Subsidiary extends Component{
                             shares to foreign investors. Foreign Direct Investment of upto 100% is allowed 
                             under the automatic route in most activities/sectors in India. Investment in 
                             activities / industries where automatic route is not available can be made with 
-                            the approval of the Government under the Government Approved FDI method. Privy 
-                            Corporate Consulting can be your legal and professional partner in India to get 
+                            the approval of the Government under the Government Approved FDI method. Talisman Business Consultancy & Solutions 
+                            can be your legal and professional partner in India to get 
                             your New Company / 
                             Subsidiary in India started quickly and cost-effectively.
                             </p>
