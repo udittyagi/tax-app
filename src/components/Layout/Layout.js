@@ -185,9 +185,7 @@ class Layout extends Component {
                     <div className={classes.FooterSeperator}></div>
                     <div className={classes.ContactInfo}>
                         <div>
-                            <p>Contact No(T) : +91 11 2354 9822 / 23</p>
                             <p>Contact No(M) : +91 9711603579</p>
-                            <p>Contact No(F) : +91 11 2362 3829</p>
                         </div>
                         <div>
                             <p>Address: Uninav Heights, Raj Nagar Extension, Ghaziabad, Uttar Pradesh - 201017</p>
